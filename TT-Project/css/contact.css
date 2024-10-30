@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+
+    .contact-container {
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:4rem;
+            padding: 2rem 0;
+            background-color: transparent;
+            width: 650px;
+            margin: 0 auto 2rem;
+            border-radius: 3%;
+            background: #0000003d;
+            color: #e2630e;
+            .content {
+                display: flex;
+                align-items: center;
+                gap: .3rem;
+                input {
+                    outline: none;
+                    border: none;
+                    width: 300px;
+                    padding: .5rem .5rem;
+                    border-radius: 20px;
+                    background: transparent;
+                    border-bottom: 1px solid #e2630e;
+                    border-left:  1px solid #e2630e;
+                }
+                textarea{
+                    resize: none;
+                    outline: none;
+                    width: 250px;
+                    border: none;
+                    border-radius: 20px;
+                    background: transparent;
+                    border-bottom: 1px solid #e2630e;
+                    border-left:  1px solid #e2630e;
+                    padding: 1rem;
+                }
+            }
+            button{
+                width: 300px;
+                outline: none;
+                border: none;
+                padding: .5rem;
+                background: transparent;
+                border: 1px solid #e2630e;
+                color: #e2630e;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #e2630e;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
